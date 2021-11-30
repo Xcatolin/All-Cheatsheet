@@ -59,6 +59,10 @@ Pull apk from device
 
 `adb pull /data/app/com.app.example.apk /home/user`
 
+Enumerate content URIs
+
+`strings classes.dex | grep "content://"`
+
 
 ## iOS
 

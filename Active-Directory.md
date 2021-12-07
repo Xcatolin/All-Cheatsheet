@@ -25,13 +25,13 @@
 #### 0x01 Recon & Enumeration
 
 ##### [ARP-Scan](https://github.com/royhills/arp-scan)
-Discover live hosts on a local network:
+Host discovery:
 
 `arp-scan --interface=<INTERFACE> --localnet`
 
 
 #### [Impacket-GetNPUsers](https://github.com/SecureAuthCorp/impacket/blob/master/examples/GetNPUsers.py)
-Get user's non-preauth AS-Rep TGT
+Get user's non-preauth AS-Rep TGT:
 
 `getnpusers <domain_name>/<user> -dc-ip=<domain_controller_ip>`
 

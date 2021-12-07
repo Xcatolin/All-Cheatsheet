@@ -42,14 +42,10 @@ Enumerate or validate accounts through Kerberos Pre-Authentication [aka Pre-auth
 `kerbrute userenum --dc <DOMAIN CONTROLLER> -d <DOMAIN> <WORDLIST>` 
 
 
-##### [CrackMapExec](https://github.com/byt3bl33d3r/CrackMapExec)
-Brute-force with User&Pass combinations:
+#### [Impacket-GetUserSPNs](https://github.com/SecureAuthCorp/impacket/blob/master/examples/GetUserSPNs.py)
+Authenticated SPN Enumeration
 
-`crackmapexec smb <IP> -u <USER LIST> -P <PASSWORD>`
-
-Pass-The-Hash
-
-`crackmapexec smb <HOST/RANGE> -u <USER> -H <NTLM HASH>`
+`getuserspns -dc-ip <domain_controler_ip> <domain>/<user>`
 
 
 ##### [gMSADumper](https://github.com/micahvandeusen/gMSADumper)
@@ -66,6 +62,15 @@ Authenticated Domain Enumeration
 
 
 ## 0x02 Exploitation
+
+##### [CrackMapExec](https://github.com/byt3bl33d3r/CrackMapExec)
+Brute-force with User&Pass combinations:
+
+`crackmapexec smb <IP> -u <USER LIST> -P <PASSWORD>`
+
+Pass-The-Hash
+
+`crackmapexec smb <HOST/RANGE> -u <USER> -H <NTLM HASH>`
 
 ##### [Responder](https://github.com/lgandx/Responder/)
 

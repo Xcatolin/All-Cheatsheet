@@ -45,7 +45,7 @@ Enumerate or validate accounts through Kerberos Pre-Authentication [aka Pre-auth
 #### [Impacket-GetUserSPNs](https://github.com/SecureAuthCorp/impacket/blob/master/examples/GetUserSPNs.py)
 Authenticated SPN Enumeration
 
-`getuserspns -dc-ip <domain_controler_ip> <domain>/<user>`
+`getuserspns -dc-ip <domain_controler_ip> <domain>/<user> -request`
 
 
 ##### [gMSADumper](https://github.com/micahvandeusen/gMSADumper)

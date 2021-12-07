@@ -22,7 +22,7 @@
 [Pentesting Active Directory](https://www.xmind.net/m/5dypm8/)
 
 
-#### 0x01 Recon & Enumeration
+## 0x01 Recon & Enumeration
 
 ##### [ARP-Scan](https://github.com/royhills/arp-scan)
 Host discovery:
@@ -65,7 +65,7 @@ Authenticated Domain Enumeration
 ##### _Please note that this configuration shall get you caught, as it is going to send a lot of queries against the domain._
 
 
-#### 0x02 Exploitation
+## 0x02 Exploitation
 
 ##### [Responder](https://github.com/lgandx/Responder/)
 
@@ -80,7 +80,13 @@ Silver Ticket Attack
 `python3 getST.py <DOMAIN>/<USER>$ -spn WWW/<DOMAIN CONTROLLER> -hashes :<HASH> -impersonate <USER TO IMPERSONATE>`
 
 
-#### 0x03 Post-Exploitation
+## 0x03 Post-Exploitation
+
+##### [Evil-WinRM](https://github.com/Hackplayers/evil-winrm)
+Get a foothold on a remote machine
+
+`evil-winrm -i <machine_ip> -u <user> -p <pass>`
+
 
 ##### [KrbRelayX](https://github.com/dirkjanm/krbrelayx)
 

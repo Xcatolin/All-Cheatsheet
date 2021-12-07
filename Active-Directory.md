@@ -35,6 +35,7 @@ Get user's non-preauth AS-Rep TGT:
 
 `getnpusers <domain_name>/<user> -dc-ip=<domain_controller_ip>`
 
+
 ##### [Kerbrute](https://github.com/ropnop/kerbrute)
 Enumerate or validate accounts through Kerberos Pre-Authentication [aka Pre-auth Bruteforcing]:
 
@@ -55,6 +56,13 @@ Pass-The-Hash
 LDAP Enumeration
 
 `python3 gMSADumper.py -u <USER> -p <PASSWORD> -d <DOMAIN>`
+
+
+#### [BloodHound](https://github.com/BloodHoundAD/BloodHound)
+Authenticated Domain Enumeration
+
+`bloodhound-python -u <user> -p <pass> -ns <domain_controler_ip> -d <domain_name> -c All`
+##### _Please note that this configuration shall get you caught, as it is going to send a lot of queries against the domain._
 
 
 #### 0x02 Exploitation

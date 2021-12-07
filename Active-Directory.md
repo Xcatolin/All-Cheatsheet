@@ -30,6 +30,11 @@ Discover live hosts on a local network:
 `arp-scan --interface=<INTERFACE> --localnet`
 
 
+#### [Impacket-GetNPUsers](https://github.com/SecureAuthCorp/impacket/blob/master/examples/GetNPUsers.py)
+Get user's non-preauth AS-Rep TGT
+
+`getnpusers <domain_name>/<user> -dc-ip=<domain_controller_ip>`
+
 ##### [Kerbrute](https://github.com/ropnop/kerbrute)
 Enumerate or validate accounts through Kerberos Pre-Authentication [aka Pre-auth Bruteforcing]:
 

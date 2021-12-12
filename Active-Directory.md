@@ -21,7 +21,7 @@
 ## 0x00 Mind Map & CheatSheets
 [Pentesting Active Directory](https://www.xmind.net/m/5dypm8/)
 
-[Windows & Active Directory Exploitation](https://casvancooten.com/posts/2020/11/windows-active-directory-exploitation-cheat-sheet-and-command-reference/#lsass-protection)
+[Windows & Active Directory Exploitation](https://casvancooten.com/posts/2020/11/windows-active-directory-exploitation-cheat-sheet-and-command-reference/)
 
 
 ## 0x01 Recon & Enumeration

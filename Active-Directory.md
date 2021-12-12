@@ -18,8 +18,9 @@
 ### A compilation of tools and techniques targeting Active Directory and Domain Controlers.
 
 
-## 0x00 Mind Map
+## 0x00 Mind Map & CheatSheets
 [Pentesting Active Directory](https://www.xmind.net/m/5dypm8/)
+[Windows & Active Directory Exploitation](https://casvancooten.com/posts/2020/11/windows-active-directory-exploitation-cheat-sheet-and-command-reference/#lsass-protection)
 
 
 ## 0x01 Recon & Enumeration
